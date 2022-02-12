@@ -213,7 +213,7 @@ GitHub.sublime-settings
 /bazel-out
 
 # Node
-./movie-rater-frontend/node_modules/*
+./movie-rater-frontend/node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -240,4 +240,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-./movie-rater-frontend/.angular
+./movie-rater-frontend/.angular/
