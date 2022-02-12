@@ -195,25 +195,25 @@ Control.system-ca-bundle
 GitHub.sublime-settings
 
 # Visual Studio Code #
-.vscode/*
+./movie-rater-frontend/.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
 
-.idea/
+.idea/*
 
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
+./movie-rater-frontend/dist
 /tmp
 /out-tsc
 /bazel-out
 
 # Node
-/node_modules
+./movie-rater-frontend/node_modules/*
 npm-debug.log
 yarn-error.log
 
@@ -228,7 +228,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+./movie-rater-frontend/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
@@ -239,3 +239,5 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+./movie-rater-frontend/.angular
